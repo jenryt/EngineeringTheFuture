@@ -1,9 +1,9 @@
 .portfolio-page {
-  padding-left: 100px;
-  padding-right: 50px;
-  width: calc(100% - 150px);
-  position: initial;
-  height: 100%;
+  padding: 0% 10% 0% 0%;
+  width: 90%;
+  position: relative;
+  top: 25%;
+  // height: 100%;
   overflow: auto;
 
   h1.page-title {
@@ -16,6 +16,13 @@
     gap: 15px;
     flex-wrap: wrap;
     padding-bottom: 100px;
+  }
+
+  .cardWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
   }
 
   .image-box {
@@ -110,4 +117,9 @@
       background: transparent;
     }
   }
+}
+
+.portfolio-container {
+  height: 100vh;
+  width: 100%;
 }

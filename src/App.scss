@@ -1,0 +1,38 @@
+$primary-color: #21e82b;
+
+@import 'animate.css';
+
+@font-face {
+  font-family: 'Gill Sans';
+  src: url('./assets/fonts/GillSansC-Bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Raleway Black';
+  src: url('./assets/fonts/Raleway-Black.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'YsabeauSC';
+  src: url('./assets/fonts/YsabeauSC-VariableFont_wght.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Poiret One';
+  src: url('./assets/fonts/PoiretOne-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'The Girl Next Door';
+  src: url('./assets/fonts/TheGirlNextDoor-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Yuji Boku';
+  src: url('./assets/fonts/YujiBoku-Regular.ttf') format('ttf');
+}
+
+input,
+textarea {
+  font-family: 'Gill Sans';
+}

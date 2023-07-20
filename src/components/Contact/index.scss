@@ -1,5 +1,5 @@
 .contact-form {
-  width: 100%;
+  height: 50%;
   margin-top: 20px;
 
   ul {
@@ -21,8 +21,8 @@
     }
 
     li.half {
-      width: 49%;
-      margin-left: 2%;
+      width: 49.5%;
+      margin-left: 1%;
       float: left;
       clear: none;
 
@@ -36,9 +36,9 @@
   input[type='email'] {
     width: 100%;
     border: 0;
-    background: #115173;
+    background: #53626f;
     height: 50px;
-    font-size: 16px;
+    font-size: 24px;
     color: #fff;
     padding: 0 20px;
     box-sizing: border-box;
@@ -47,9 +47,9 @@
   textarea {
     width: 100%;
     border: 0;
-    background: #115173;
+    background: #53626f;
     height: 50px;
-    font-size: 16px;
+    font-size: 24px;
     color: #fff;
     padding: 20px;
     box-sizing: border-box;
@@ -57,12 +57,12 @@
   }
 
   .flat-button {
-    color: #ffd700;
+    color: #fdb515;
     font-size: 11px;
     letter-spacing: 3px;
     text-decoration: none;
     padding: 8px 10px;
-    border: 1px solid #ffd700;
+    border: 1px solid #fdb515;
     float: left;
     border-radius: 4px;
     background: 0 0;
@@ -81,40 +81,6 @@
   margin-top: -3%;
 }
 
-.leaflet-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  animation: backInRight 1s 1.2s;
-  animation-fill-mode: forwards;
-}
-
-.info-map {
-  position: absolute;
-  background: #000;
-  top: 50px;
-  right: 30%;
-  z-index: 999999;
-  width: 267px;
-  padding: 20px;
-  color: #fff;
-  font-family: 'Helvetica';
-  font-size: 17px;
-  font-weight: 300;
-  opacity: 0;
-  animation: fadeIn 1s 1.5s;
-  animation-fill-mode: forwards;
-
-  span {
-    font-size: 16px;
-
-    span {
-      color: #ffd700;
-    }
-  }
-}
-
 @media screen and (max-width: 1200px) {
   .map-wrap {
     float: none;
@@ -122,8 +88,23 @@
     width: 100%;
     height: 400px;
   }
-  
+
   .info-map {
     display: none;
+  }
+
+  .contact-form {
+    width: 100%;
+    height: 40%;
+    margin-top: 20px;
+
+    ul {
+      li.half {
+        width: 100%;
+        margin-left: 0%;
+        float: left;
+        clear: none;
+      }
+    }
   }
 }

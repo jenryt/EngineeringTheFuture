@@ -14,17 +14,21 @@ import {
   faClose,
   faAt,
 } from '@fortawesome/free-solid-svg-icons'
+import myImage from '../../assets/images/avatarImage.jpeg'
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false)
 
   return (
     <div className="nav-bar">
-      <p>Jennifer</p>
-      <Avatar
-        alt="Jennifer Rytikoff"
-        src="/Users/jen/Desktop/bootcamp/Homework/Module_20_EngineeringTheFuture/react_portfolio copy/src/assets/images/avatarImage.jpeg"
-      />
+      <div className="avatar">
+        <h3>Jennifer Rytikoff</h3>
+        <Avatar
+          alt="Jennifer Rytikoff"
+          src={myImage}
+          sx={{ width: 90, height: 90 }}
+        />
+      </div>
 
       <nav className={showNav ? 'mobile-show' : ''}>
         {/* Home */}
@@ -34,7 +38,7 @@ const Navbar = () => {
           to="/"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faHome} color="#53626f" />
         </NavLink>
         {/* AboutMe */}
         <NavLink
@@ -43,7 +47,7 @@ const Navbar = () => {
           to="/aboutMe"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faUser} color="#53626f" />
         </NavLink>
         {/* Portfolio */}
         <NavLink
@@ -52,7 +56,7 @@ const Navbar = () => {
           to="/portfolio"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faSuitcase} color="#53626f" />
         </NavLink>
         {/* Contact */}
         <NavLink
@@ -61,7 +65,7 @@ const Navbar = () => {
           to="/contact"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faEnvelope} color="#53626f" />
         </NavLink>
         {/* Resume */}
         <NavLink
@@ -71,12 +75,12 @@ const Navbar = () => {
           to="/resume"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faFileAlt} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faFileAlt} color="#53626f" />
         </NavLink>
         <FontAwesomeIcon
           onClick={() => setShowNav(false)}
           icon={faClose}
-          color="#ffd700"
+          color="#fdb515"
           size="3x"
           className="close-icon"
         />
@@ -87,7 +91,7 @@ const Navbar = () => {
           <a href="google.com" target="_blank" rel="noreferrer">
             <FontAwesomeIcon
               icon={faLinkedin}
-              color="#4d4d4e"
+              color="#53626f"
               className="anchor-icon"
             />
           </a>
@@ -97,7 +101,7 @@ const Navbar = () => {
           <a href="http://www.google.com" target="_blank" rel="noreferrer">
             <FontAwesomeIcon
               icon={faGithub}
-              color="#4d4d4e"
+              color="#53626f"
               className="anchor-icon"
             />
           </a>
@@ -107,7 +111,7 @@ const Navbar = () => {
           <a href="jenyjlin@gmail.com" rel="noreferrer" target="_blank">
             <FontAwesomeIcon
               icon={faAt}
-              color="#4d4d4e"
+              color="#53626f"
               className="anchor-icon"
             />
           </a>
@@ -116,7 +120,7 @@ const Navbar = () => {
       <FontAwesomeIcon
         onClick={() => setShowNav(true)}
         icon={faBars}
-        color="#ffd700"
+        color="#fdb515"
         size="3x"
         className="hamburger-icon"
       />

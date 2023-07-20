@@ -1,5 +1,5 @@
 .nav-bar {
-  background: #181818;
+  background: #fdb515;
   width: 9vw;
   height: 100%;
   position: absolute;
@@ -8,6 +8,11 @@
   z-index: 3;
   min-height: 500px;
 
+  .avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .logo {
     display: block;
     padding: 8px 0;
@@ -35,7 +40,7 @@
 
     a {
       font-size: 22px;
-      color: #e8280a;
+      color: #ffffff;
       display: block;
       line-height: 51px;
       height: 51px;
@@ -47,7 +52,7 @@
       }
 
       &:hover {
-        color: #ffd700;
+        color: #003262;
 
         svg {
           opacity: 0;
@@ -105,7 +110,7 @@
 
     a.active {
       svg {
-        color: #ffd700;
+        color: #003262;
       }
     }
   }
@@ -126,12 +131,12 @@
         display: block;
         font-size: 15px;
         line-height: 16px;
-        color: #4d4d4e;
+        color: #53626f;
       }
 
       &:hover {
         .anchor-icon {
-          color: #ffd700;
+          color: #003262;
         }
       }
     }
@@ -149,6 +154,10 @@
     position: initial;
     height: auto;
     min-height: auto;
+
+    .avatar {
+      display: none;
+    }
 
     ul,
     nav {

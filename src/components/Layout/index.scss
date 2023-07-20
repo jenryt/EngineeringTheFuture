@@ -37,13 +37,14 @@
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
+  overflow-y: scroll;
 }
 
 .container.contact-page,
 .container.aboutMe-page,
 .container.portfolio-page {
   h1 {
-    font-size: 53px;
+    font-size: 51px;
     font-family: 'Gill Sans';
     color: #fdb515;
     font-weight: 400;
@@ -54,7 +55,7 @@
   }
 
   p {
-    font-size: 13px;
+    font-size: 27px;
     color: #fff;
     font-family: 'Gill Sans';
     font-weight: 300;

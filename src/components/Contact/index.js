@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { TextField, Button, Grid, Paper, makeStyles } from '@material-ui/core'
+import { TextField, Button } from '@material-ui/core'
 import './index.scss'
 
 const Contact = () => {
@@ -39,10 +39,7 @@ const Contact = () => {
           <div className="text-zone">
             <h1>Contact Me</h1>
             <div className="contact-form">
-              <form
-                onSubmit={handleSubmit}
-                // style={{ marginTop: '50%' }}
-              >
+              <form onSubmit={handleSubmit}>
                 <ul>
                   <li className="half">
                     <input

@@ -5,10 +5,6 @@ import { Avatar } from '@mui/material'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import {
-  faPhone,
-  faPassport,
-  faPaperPlane,
-  faBook,
   faHome,
   faUser,
   faEnvelope,
@@ -17,7 +13,6 @@ import {
   faBars,
   faClose,
   faAt,
-  faCalendarXmark,
 } from '@fortawesome/free-solid-svg-icons'
 import myImage from '../../assets/images/avatarImage02.jpg'
 

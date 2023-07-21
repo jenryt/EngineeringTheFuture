@@ -13,6 +13,7 @@ import {
   faBars,
   faClose,
   faAt,
+  faCalendarXmark,
 } from '@fortawesome/free-solid-svg-icons'
 import myImage from '../../assets/images/avatarImage.jpeg'
 
@@ -28,7 +29,21 @@ const Navbar = () => {
   return (
     <div className="nav-bar">
       <div className="avatar">
-        <h3>Jennifer Rytikoff</h3>
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <div style={{ textAlign: 'center' }}>
+            <h2 style={{ marginBottom: '-3vh', fontSize: '180%' }}>
+              Jennifer Lin
+            </h2>
+            <br />
+            <h2 style={{ fontSize: '180%' }}>Rytikoff</h2>
+          </div>
+        </div>
         <Avatar
           alt="Jennifer Rytikoff"
           src={myImage}

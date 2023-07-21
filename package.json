@@ -1,7 +1,8 @@
 {
-  "name": "react_portfolio",
+  "name": "engineering-the-future_jennifer-rytikoff",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jenryt.github.io/EngineeringTheFuture/",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.1",
@@ -34,6 +35,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

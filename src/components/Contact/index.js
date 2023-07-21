@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { TextField, Button } from '@material-ui/core'
 import './index.scss'
+import { useForm, ValidationError } from '@formspree/react'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -18,10 +19,15 @@ const Contact = () => {
     }))
   }
 
-  const handleSubmit = (event) => {
-    event.preventDefault()
-    // Here, you can handle form submission logic, like sending the data to a server or displaying a success message.
-    console.log('Form data:', formData)
+  const [state, handleSubmit] = useForm('xjvqkegl')
+  if (state.succeeded) {
+    return (
+      <h1 style={{ marginTop: '49vh', marginLeft: '6vw', color: '#FDB515' }}>
+        Thank you for reaching out!
+        <br />
+        Let's keep in touch!
+      </h1>
+    )
   }
 
   return (

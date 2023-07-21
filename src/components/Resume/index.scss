@@ -1,10 +1,12 @@
-.home-page {
+.resume-page {
   .text-zone {
     position: absolute;
     left: 10%;
     top: 50%;
     transform: translateY(-50%);
-    width: 50%;
+    width: 70%;
+    vertical-align: middle;
+    display: table-cell;
     max-height: 90%;
   }
 

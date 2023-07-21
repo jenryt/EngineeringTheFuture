@@ -19,6 +19,12 @@ import myImage from '../../assets/images/avatarImage.jpeg'
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false)
 
+  const email = 'jenyjlin@gmail.com'
+
+  const handleContactClick = () => {
+    window.location.href = `mailto:${email}`
+  }
+
   return (
     <div className="nav-bar">
       <div className="avatar">
@@ -108,7 +114,7 @@ const Navbar = () => {
         </li>
         {/* Email */}
         <li>
-          <a href="jenyjlin@gmail.com" rel="noreferrer" target="_blank">
+          <a href={`mailto:${email}`} onClick={handleContactClick}>
             <FontAwesomeIcon
               icon={faAt}
               color="#53626f"

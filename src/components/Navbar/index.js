@@ -5,6 +5,10 @@ import { Avatar } from '@mui/material'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import {
+  faPhone,
+  faPassport,
+  faPaperPlane,
+  faBook,
   faHome,
   faUser,
   faEnvelope,
@@ -15,7 +19,7 @@ import {
   faAt,
   faCalendarXmark,
 } from '@fortawesome/free-solid-svg-icons'
-import myImage from '../../assets/images/avatarImage.jpeg'
+import myImage from '../../assets/images/avatarImage02.jpg'
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false)
@@ -109,7 +113,11 @@ const Navbar = () => {
       <ul>
         {/* Linkedin */}
         <li>
-          <a href="google.com" target="_blank" rel="noreferrer">
+          <a
+            href="http://www.linkedin.com/in/jennifer-rytikoff"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon
               icon={faLinkedin}
               color="#53626f"
@@ -119,7 +127,7 @@ const Navbar = () => {
         </li>
         {/* GitHub */}
         <li>
-          <a href="http://www.google.com" target="_blank" rel="noreferrer">
+          <a href="https://github.com/jenryt" target="_blank" rel="noreferrer">
             <FontAwesomeIcon
               icon={faGithub}
               color="#53626f"

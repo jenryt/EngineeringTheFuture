@@ -79,7 +79,7 @@ const Contact = () => {
                     className="flat-button"
                     value="SEND"
                     style={{
-                      fontSize: '18px',
+                      fontSize: '21px',
                       padding: '10px 20px',
                       width: '100%',
                     }}

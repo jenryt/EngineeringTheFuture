@@ -11,7 +11,7 @@ const Home = () => {
             HELLO WORLD, <br />
             <h1 style={{ paddingLeft: '30px' }}>
               <br />
-              Introducing Jennifer Rytikoff <br /> <br />
+              Introducing Jennifer Lin Rytikoff <br /> <br />
               A Full Stack Developer <br />
               <h1 style={{ paddingLeft: '20px' }}>
                 "dependencies": &#123;

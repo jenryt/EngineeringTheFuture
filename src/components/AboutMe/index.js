@@ -50,19 +50,37 @@ const AboutMe = () => {
               />
             </div>
             <p>
-              intro intro intro intro intro intro intro intro intro intro intro
-              intro intro intro intro intro intro intro intro intro intro intro
-              intro intro intro intro intro intro intro intro intro intro intro
-            </p>
-            <p align="LEFT">
-              bootcamp bootcamp bootcamp bootcamp bootcamp bootcamp bootcamp{' '}
-              bootcamp bootcamp bootcamp bootcamp bootcamp bootcamp bootcamp{' '}
-              bootcamp bootcamp bootcamp bootcamp bootcamp bootcamp{' '}
+              Hello, I'm Jennifer Lin Rytikoff, a passionate and dedicated
+              full-stack developer who recently completed an intensive coding
+              bootcamp at the University of California, Berkeley - Extension. I
+              hold a B.A. degree in Political Economy from U.C. Berkeley, and my
+              journey in the tech-field began with a fresh perspective and
+              unwavering determination.
             </p>
             <p>
-              future future future future future future future future future{' '}
-              future future future future future future future future future{' '}
+              During the immersive bootcamp, I embraced the fast-paced learning
+              process and honed my skills in a wide range of technologies,
+              including HTML, CSS, JavaScript, React, Node.js, GraphQL, SQL, and
+              NoSQL Databases. This versatile skill set equips me to work with
+              both classic and modern frameworks, empowering me to build
+              innovative and impactful solutions.
             </p>
+            <p>
+              Beyond technical expertise, my background as a one-on-one math
+              tutor and language teacher for thirty students has cultivated my
+              ability to understand individual needs and deliver tailored
+              solutions. Additionally, my extensive experience in customer
+              service has sharpened my communication skills and fostered my
+              collaborative spirit as a team player.
+            </p>
+            <p>
+              Now, six months after embarking on this exciting journey, I am
+              eager to seize new opportunities and contribute my skills to
+              meaningful projects. I am committed to pushing the boundaries of
+              what's possible in the tech world and making a positive impact
+              through my work.
+            </p>
+            <p align="LEFT"></p>
           </div>
         </div>
 

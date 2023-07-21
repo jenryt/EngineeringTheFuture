@@ -41,7 +41,6 @@
 }
 
 .container.contact-page,
-.container.aboutMe-page,
 .container.portfolio-page {
   h1 {
     font-size: 51px;
@@ -92,7 +91,7 @@
 
 @media screen and (max-width: 1200px) {
   .page {
-    position: initial;
+    top: 10vh;
   }
 
   .container {
@@ -101,7 +100,6 @@
     min-height: auto;
 
     &.contact-page,
-    &.aboutMe-page,
     &.portfolio-page {
       .text-zone {
         position: initial;
@@ -109,6 +107,17 @@
         width: 100%;
         display: block;
         padding: 20px;
+        box-sizing: border-box;
+      }
+    }
+
+    &.aboutMe-page {
+      .text-zone {
+        position: initial;
+        transform: none;
+        width: 100%;
+        display: block;
+        // padding: 20px;
         box-sizing: border-box;
       }
     }

@@ -159,7 +159,7 @@
       display: none;
     }
 
-    ul,
+    // ul,
     nav {
       display: none;
     }
@@ -202,6 +202,23 @@
       top: 15px;
       right: 15px;
       display: block;
+    }
+
+    ul {
+      display: flex;
+      position: absolute;
+      top: 2vh;
+      left: 1vw;
+      justify-content: center;
+      height: 5vh;
+    }
+
+    li {
+      margin: 0% 2% 0% 2%;
+    }
+
+    h1 {
+      font: 24px;
     }
   }
 }

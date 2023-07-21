@@ -1,5 +1,52 @@
+.aboutMe-page {
+  h1 {
+    font-size: 51px;
+    font-family: 'Gill Sans';
+    color: #fdb515;
+    font-weight: 400;
+    margin-top: 0;
+    position: relative;
+    margin-bottom: 40px;
+    left: -10px;
+  }
+
+  p {
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Gill Sans';
+    font-weight: 300;
+    max-width: fit-content;
+    animation: pulse 0.5s;
+    &:nth-of-type(1) {
+      animation-delay: 0.3s;
+    }
+    &:nth-of-type(2) {
+      animation-delay: 0.4s;
+    }
+    &:nth-of-type(3) {
+      animation-delay: 0.5s;
+    }
+  }
+
+  .text-zone {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 65%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+  }
+
+  .text-animate-hover {
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
 .stage-cube-cont {
-  width: 50%;
+  width: 30%;
   height: 100%;
   top: 0;
   padding-top: 18%;
@@ -94,7 +141,7 @@
     width: 80%;
     height: 50%;
     font-size: 24px;
-    padding: 10%;
+    padding: 0% 10%;
   }
 
   .stage-cube-cont {

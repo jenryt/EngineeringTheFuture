@@ -123,3 +123,18 @@
   height: 100vh;
   width: 100%;
 }
+
+@media screen and (max-width: 1200px) {
+  .portfolio-container {
+    height: 91vh;
+    width: 100%;
+  }
+
+  .portfolio-page {
+    padding: 0% 10% 0% 0%;
+    width: 90%;
+    position: relative;
+    top: 10%;
+    overflow: auto;
+  }
+}

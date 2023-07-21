@@ -55,13 +55,22 @@
       color: #333;
     }
   }
+
+  .profilePic {
+    top: 30vh;
+    right: -57vw;
+  }
 }
 
 @media screen and (max-width: 1200px) {
-  .tags,
-  .home-page h1:before,
-  .home-page h1:after {
-    display: none;
+  .home-page {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    .profilePic {
+      top: 0vh;
+      right: 0vw;
+    }
   }
 
   .home-page .text-zone {

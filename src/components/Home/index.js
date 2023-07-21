@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Avatar } from '@mui/material'
 import './index.scss'
+import myImage from '../../assets/images/avatarImage01.jpg'
 
 const Home = () => {
   return (
@@ -31,6 +33,12 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
+        <Avatar
+          className="profilePic"
+          alt="Jennifer Rytikoff"
+          src={myImage}
+          sx={{ width: 450, height: 450 }}
+        />
       </div>
     </div>
   )

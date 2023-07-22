@@ -6,7 +6,16 @@ import {
   faJsSquare,
   faReact,
   faNode,
+  faSass,
 } from '@fortawesome/free-brands-svg-icons'
+import {
+  SiMongodb,
+  SiMysql,
+  SiGraphql,
+  SiHeroku,
+  SiBootstrap,
+} from 'react-icons/si'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 
@@ -20,32 +29,52 @@ const AboutMe = () => {
               <FontAwesomeIcon
                 icon={faNode}
                 color="#F06529"
-                style={{ height: '9%', width: '9%' }}
-              />
-              <FontAwesomeIcon
-                icon={faHtml5}
-                color="#F06529"
-                style={{ height: '9%', width: '9%' }}
-              />
-              <FontAwesomeIcon
-                icon={faCss3}
-                color="#28A4D9"
-                style={{ height: '9%', width: '9%' }}
+                style={{ height: '5%', width: '5%' }}
               />
               <FontAwesomeIcon
                 icon={faReact}
                 color="#5ED4F4"
-                style={{ height: '9%', width: '9%' }}
+                style={{ height: '5%', width: '5%' }}
               />
               <FontAwesomeIcon
                 icon={faJsSquare}
                 color="#EFD81D"
-                style={{ height: '9%', width: '9%' }}
+                style={{ height: '5%', width: '5%' }}
+              />
+              <FontAwesomeIcon
+                icon={faHtml5}
+                color="#F06529"
+                style={{ height: '5%', width: '5%' }}
+              />
+              <SiMongodb
+                style={{ color: '#47A248', height: '5%', width: '5%' }}
+              />
+              <SiMysql
+                style={{ color: '#4479A1', height: '5%', width: '5%' }}
+              />
+              <SiGraphql
+                style={{ color: '#E10098', height: '5%', width: '5%' }}
+              />
+              <SiHeroku
+                style={{ color: '#6567a5', height: '5%', width: '5%' }}
+              />
+              <SiBootstrap
+                style={{ color: '#7952B3', height: '5%', width: '5%' }}
+              />
+              <FontAwesomeIcon
+                icon={faCss3}
+                color="#28A4D9"
+                style={{ height: '5%', width: '5%' }}
+              />
+              <FontAwesomeIcon
+                icon={faSass}
+                color="#CD6799"
+                style={{ height: '5%', width: '5%' }}
               />
               <FontAwesomeIcon
                 icon={faGit}
                 color="#EC4D28"
-                style={{ height: '9%', width: '9%' }}
+                style={{ height: '5%', width: '5%' }}
               />
             </div>
             <p>
@@ -101,7 +130,7 @@ const AboutMe = () => {
               <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
             </div>
             <div className="face6">
-              <FontAwesomeIcon icon={faGit} color="#EC4D28" />
+              <SiGraphql style={{ color: '#E10098' }} />{' '}
             </div>
           </div>
         </div>

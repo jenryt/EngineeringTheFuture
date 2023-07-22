@@ -27,7 +27,9 @@ No installaiton required.
 
 ## Usage
 
-Welcome to my portfolio - [Engineering the Future : Jennifer Rytikoff](http://site-address.com)
+Welcome to my portfolio - [Engineering the Future : Jennifer Rytikoff](https://jenryt.github.io/EngineeringTheFuture/)
+
+![Home Page](./src/assets/images/EngineeringTheFuture_JenniferRytikoff.png)
 
 ## License
 

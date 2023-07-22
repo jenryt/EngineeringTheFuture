@@ -110,7 +110,7 @@ const Portfolio = () => {
                   {card.github && (
                     <Button
                       size="large"
-                      href={card.url}
+                      href={card.github}
                       target="_blank"
                       style={{
                         border: 'solid 1px #003262',

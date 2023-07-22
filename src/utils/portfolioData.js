@@ -97,6 +97,7 @@ const portfolioData = [
       </div>
     ),
     url: 'https://jenryt.github.io/EngineeringTheFuture',
+    github: 'https://github.com/jenryt/EngineeringTheFuture',
   },
   {
     image: WanderList,
@@ -109,6 +110,7 @@ const portfolioData = [
       </div>
     ),
     url: 'https://wanderlist.herokuapp.com',
+    github: 'https://github.com/JDempe/WanderList',
   },
   {
     image: TheSITE,
@@ -121,6 +123,7 @@ const portfolioData = [
       </div>
     ),
     url: 'https://kevrev.github.io/the-site/',
+    github: 'https://github.com/Kevrev/the-site',
   },
   {
     image: WeatherDashboard,
@@ -133,6 +136,7 @@ const portfolioData = [
       </div>
     ),
     url: 'https://jenryt.github.io/WeatherDashboard/',
+    github: 'https://github.com/jenryt/WeatherDashboard',
   },
   {
     image: TimedQuiz,
@@ -145,6 +149,7 @@ const portfolioData = [
       </div>
     ),
     url: 'https://jenryt.github.io/TimedQuiz/',
+    github: 'https://github.com/jenryt/TimedQuiz',
   },
 ]
 

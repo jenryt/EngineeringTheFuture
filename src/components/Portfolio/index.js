@@ -14,9 +14,17 @@ import portfolioData from '../../utils/portfolioData'
 
 const Portfolio = () => {
   const responsive = {
+    xLargerMonitor: {
+      breakpoint: { max: 3300, min: 2300 },
+      items: 5, // # of item in Carousel
+    },
+    largerMonitor: {
+      breakpoint: { max: 2300, min: 1800 },
+      items: 4,
+    },
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3, // Set to 1 for vertical carousel
+      breakpoint: { max: 1700, min: 1024 },
+      items: 3,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -24,7 +32,7 @@ const Portfolio = () => {
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1, // Set to 1 for vertical carousel
+      items: 1,
     },
   }
 

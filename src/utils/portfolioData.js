@@ -4,6 +4,7 @@ import WanderList from '../assets/images/WanderList.png'
 import WeatherDashboard from '../assets/images/WeatherDashboard.png'
 import TimedQuiz from '../assets/images/TimedQuiz.png'
 import EngineeringTheFuture_JenRyt from '../assets/images/EngineeringTheFuture_JenniferRytikoff.png'
+import personalPortfolio_noReact from '../assets/images/personalPortfolio_noReact.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faJsSquare,
@@ -124,6 +125,42 @@ const portfolioData = [
     ),
     url: 'https://kevrev.github.io/the-site/',
     github: 'https://github.com/Kevrev/the-site',
+  },
+  {
+    image: personalPortfolio_noReact,
+    title: 'Personal Portfolio',
+    content: (
+      <div>
+        <HTML5 />
+        <CSS3 />
+      </div>
+    ),
+    url: 'https://jenryt.github.io/PersonalPortfolio/',
+    github: 'https://github.com/jenryt/PersonalPortfolio',
+  },
+  {
+    image: comingSoon,
+    title: 'README generator',
+    content: (
+      <div>
+        <NodeJS />
+        <JS />
+      </div>
+    ),
+    url: '',
+    github: 'https://github.com/jenryt/READMEGenerator',
+  },
+  {
+    image: comingSoon,
+    title: 'track-EM_employee-tracker',
+    content: (
+      <div>
+        <NodeJS />
+        <JS />
+      </div>
+    ),
+    url: '',
+    github: 'https://github.com/jenryt/track-EM_employee-tracker',
   },
   {
     image: WeatherDashboard,

@@ -23,15 +23,23 @@ const Portfolio = () => {
       items: 4,
     },
     desktop: {
-      breakpoint: { max: 1700, min: 1024 },
+      breakpoint: { max: 1700, min: 1350 },
       items: 3,
     },
+    largeTablet: {
+      breakpoint: { max: 1350, min: 464 },
+      items: 2.5,
+    },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 1024, min: 850 },
       items: 2,
     },
+    smallTablet: {
+      breakpoint: { max: 850, min: 650 },
+      items: 1.5,
+    },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 650, min: 0 },
       items: 1,
     },
   }

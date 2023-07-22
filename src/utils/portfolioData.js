@@ -3,6 +3,7 @@ import TheSITE from '../assets/images/THE SITE you camp.png'
 import WanderList from '../assets/images/WanderList.png'
 import WeatherDashboard from '../assets/images/WeatherDashboard.png'
 import TimedQuiz from '../assets/images/TimedQuiz.png'
+import EngineeringTheFuture_JenRyt from '../assets/images/EngineeringTheFuture_JenniferRytikoff.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faJsSquare,
@@ -83,7 +84,7 @@ const Sass = () => {
 
 const portfolioData = [
   {
-    image: comingSoon,
+    image: EngineeringTheFuture_JenRyt,
     title: 'Engineering the Future : Jennifer Rytikoff',
     content: (
       <div>

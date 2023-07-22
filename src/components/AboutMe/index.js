@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import React from 'react'
 import {
   faCss3,
   faGit,
@@ -7,7 +7,6 @@ import {
   faReact,
   faNode,
 } from '@fortawesome/free-brands-svg-icons'
-import Loader from 'react-loaders'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 

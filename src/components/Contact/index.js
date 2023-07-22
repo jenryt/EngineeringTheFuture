@@ -1,24 +1,10 @@
 import React, { useState } from 'react'
-import { TextField, Button } from '@material-ui/core'
+import { Button } from '@material-ui/core'
 import './index.scss'
-import { useForm, ValidationError } from '@formspree/react'
+import { useForm } from '@formspree/react'
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
-  })
-
-  const handleChange = (event) => {
-    const { name, value } = event.target
-    setFormData((prevFormData) => ({
-      ...prevFormData,
-      [name]: value,
-    }))
-  }
-
+  // api from Formspree
   const [state, handleSubmit] = useForm('xjvqkegl')
   if (state.succeeded) {
     return (

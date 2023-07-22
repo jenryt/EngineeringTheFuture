@@ -95,7 +95,7 @@ const portfolioData = [
         <CSS3 />
       </div>
     ),
-    url: 'https://www.google.com',
+    url: 'https://jenryt.github.io/EngineeringTheFuture',
   },
   {
     image: WanderList,

@@ -51,7 +51,12 @@ const Portfolio = () => {
                   sx={{ objectFit: 'cover' }}
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h4" component="div">
+                  <Typography
+                    gutterBottom
+                    variant="h4"
+                    component="div"
+                    style={{ overflow: 'auto', whiteSpace: 'nowrap' }}
+                  >
                     {card.title}
                   </Typography>
                   <Typography variant="body2" color="text.secondary">

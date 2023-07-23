@@ -14,6 +14,7 @@ import {
   SiGraphql,
   SiHeroku,
   SiBootstrap,
+  SiRedux,
 } from 'react-icons/si'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -29,52 +30,85 @@ const AboutMe = () => {
               <FontAwesomeIcon
                 icon={faNode}
                 color="#F06529"
-                style={{ height: '5%', width: '5%' }}
+                style={{ height: '6%', width: '6%', padding: '0.5%' }}
               />
               <FontAwesomeIcon
                 icon={faReact}
                 color="#5ED4F4"
-                style={{ height: '5%', width: '5%' }}
+                style={{ height: '6%', width: '6%', padding: '0.5%' }}
+              />
+              <SiRedux
+                style={{
+                  color: '#764ABC',
+                  height: '6%',
+                  width: '6%',
+                  padding: '0.5%',
+                }}
               />
               <FontAwesomeIcon
                 icon={faJsSquare}
                 color="#EFD81D"
-                style={{ height: '5%', width: '5%' }}
+                style={{ height: '6%', width: '6%', padding: '0.5%' }}
               />
               <FontAwesomeIcon
                 icon={faHtml5}
                 color="#F06529"
-                style={{ height: '5%', width: '5%' }}
+                style={{ height: '6%', width: '6%', padding: '0.5%' }}
               />
               <SiMongodb
-                style={{ color: '#47A248', height: '5%', width: '5%' }}
+                style={{
+                  color: '#47A248',
+                  height: '6%',
+                  width: '6%',
+                  padding: '0.5%',
+                }}
               />
               <SiMysql
-                style={{ color: '#4479A1', height: '5%', width: '5%' }}
+                style={{
+                  color: '#4479A1',
+                  height: '6%',
+                  width: '6%',
+                  padding: '0.5%',
+                }}
               />
               <SiGraphql
-                style={{ color: '#E10098', height: '5%', width: '5%' }}
+                style={{
+                  color: '#E10098',
+                  height: '6%',
+                  width: '6%',
+                  padding: '0.5%',
+                }}
               />
               <SiHeroku
-                style={{ color: '#6567a5', height: '5%', width: '5%' }}
+                style={{
+                  color: '#6567a5',
+                  height: '6%',
+                  width: '6%',
+                  padding: '0.5%',
+                }}
               />
               <SiBootstrap
-                style={{ color: '#7952B3', height: '5%', width: '5%' }}
+                style={{
+                  color: '#7952B3',
+                  height: '6%',
+                  width: '6%',
+                  padding: '0.5%',
+                }}
               />
               <FontAwesomeIcon
                 icon={faCss3}
                 color="#28A4D9"
-                style={{ height: '5%', width: '5%' }}
+                style={{ height: '6%', width: '6%', padding: '0.5%' }}
               />
               <FontAwesomeIcon
                 icon={faSass}
                 color="#CD6799"
-                style={{ height: '5%', width: '5%' }}
+                style={{ height: '6%', width: '6%', padding: '0.5%' }}
               />
               <FontAwesomeIcon
                 icon={faGit}
                 color="#EC4D28"
-                style={{ height: '5%', width: '5%' }}
+                style={{ height: '6%', width: '6%', padding: '0.5%' }}
               />
             </div>
             <p>
@@ -88,10 +122,12 @@ const AboutMe = () => {
             <p>
               During the immersive bootcamp, I embraced the fast-paced learning
               process and honed my skills in a wide range of technologies,
-              including HTML, CSS, JavaScript, React, Node.js, GraphQL, SQL, and
-              NoSQL Databases. This versatile skill set equips me to work with
-              both classic and modern frameworks, empowering me to build
-              innovative and impactful solutions.
+              including HTML, CSS, JavaScript, React, Redux, Node.js, GraphQL,
+              SQL, and NoSQL Databases. This versatile skill set equips me to
+              work with both classic and modern frameworks, empowering me to
+              build innovative and impactful solutions. I am proud to have
+              achieved exceptional results during the bootcamp, which reflects
+              my dedication and commitment to excellence in my work.
             </p>
             <p>
               Beyond technical expertise, my background as a one-on-one math

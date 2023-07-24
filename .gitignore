@@ -157,3 +157,4 @@ node_modules
 .env
 package-lock.json
 dist/
+/src/assets/images/

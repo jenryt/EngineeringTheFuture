@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/EngineeringTheFuture/static/css/main.a92309cd.css",
+    "main.css": "/EngineeringTheFuture/static/css/main.55ee9a94.css",
     "main.js": "/EngineeringTheFuture/static/js/main.f6690415.js",
     "static/media/YujiBoku-Regular.ttf": "/EngineeringTheFuture/static/media/YujiBoku-Regular.2a28c6fdce6b8f64d626.ttf",
     "static/media/WanderList.png": "/EngineeringTheFuture/static/media/WanderList.efa2b16d02da637e0d18.png",
@@ -23,11 +23,11 @@
     "static/media/revicons.ttf": "/EngineeringTheFuture/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/EngineeringTheFuture/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/EngineeringTheFuture/index.html",
-    "main.a92309cd.css.map": "/EngineeringTheFuture/static/css/main.a92309cd.css.map",
+    "main.55ee9a94.css.map": "/EngineeringTheFuture/static/css/main.55ee9a94.css.map",
     "main.f6690415.js.map": "/EngineeringTheFuture/static/js/main.f6690415.js.map"
   },
   "entrypoints": [
-    "static/css/main.a92309cd.css",
+    "static/css/main.55ee9a94.css",
     "static/js/main.f6690415.js"
   ]
 }

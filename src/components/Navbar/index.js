@@ -14,7 +14,7 @@ import {
   faClose,
   faAt,
 } from '@fortawesome/free-solid-svg-icons'
-import myImage from '../../assets/images/avatarImage02.jpg'
+import myImage from '../../assets/images/avatarImage01.jpg'
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false)

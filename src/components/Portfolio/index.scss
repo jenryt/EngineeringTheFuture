@@ -135,9 +135,12 @@
 }
 
 .projectContent {
-  overflow: scroll;
+  overflow-x: scroll;
   height: 50%;
   width: 100%;
+  font-size: xx-large;
+  display: flex;
+  align-items: flex-end;
   white-space: nowrap;
 }
 

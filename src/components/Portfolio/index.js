@@ -66,16 +66,21 @@ const Portfolio = () => {
                   title={card.title}
                   sx={{ objectFit: 'cover' }}
                 />
-                <CardContent>
+                <CardContent className="projectInfo">
                   <Typography
+                    className="projectTitle"
                     gutterBottom
                     variant="h4"
                     component="div"
-                    style={{ overflow: 'auto', whiteSpace: 'nowrap' }}
                   >
                     {card.title}
                   </Typography>
-                  <Typography variant="body2" color="text.secondary">
+                  <Typography
+                    className="projectContent"
+                    variant="h4"
+                    color="text.secondary"
+                    content={card.content}
+                  >
                     {card.content}
                   </Typography>
                 </CardContent>

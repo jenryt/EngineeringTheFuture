@@ -1,6 +1,7 @@
 import comingSoon from '../assets/images/comingSoon_imgPlaceholder.png'
 import TheSITE from '../assets/images/THE SITE you camp.png'
 import WanderList from '../assets/images/WanderList.png'
+import Snapshot from '../assets/images/Snapshot.png'
 import WeatherDashboard from '../assets/images/WeatherDashboard.png'
 import TimedQuiz from '../assets/images/TimedQuiz.png'
 import EngineeringTheFuture_JenRyt from '../assets/images/EngineeringTheFuture_JenniferRytikoff.png'
@@ -14,6 +15,16 @@ import {
   faReact,
   faSass,
 } from '@fortawesome/free-brands-svg-icons'
+import {
+  SiMongodb,
+  SiMysql,
+  SiGraphql,
+  SiBootstrap,
+  SiRedux,
+  SiHandlebarsdotjs,
+  SiJquery,
+  SiExpress,
+} from 'react-icons/si'
 // import {} from '@fortawesome/free-solid-svg-icons'
 
 // icons component
@@ -83,6 +94,94 @@ const Sass = () => {
   )
 }
 
+const MongoDB = () => {
+  return (
+    <SiMongodb
+      style={{
+        color: '#47A248',
+        padding: '3px',
+      }}
+    />
+  )
+}
+
+const MySQL = () => {
+  return (
+    <SiMysql
+      style={{
+        color: '#4479A1',
+        padding: '3px',
+      }}
+    />
+  )
+}
+
+const EXPRESS = () => {
+  return (
+    <SiExpress
+      style={{
+        color: '#000000',
+        padding: '3px',
+      }}
+    />
+  )
+}
+
+const GraphQL = () => {
+  return (
+    <SiGraphql
+      style={{
+        color: '#E10098',
+        padding: '3px',
+      }}
+    />
+  )
+}
+
+const Redux = () => {
+  return (
+    <SiRedux
+      style={{
+        color: '#764ABC',
+        padding: '3px',
+      }}
+    />
+  )
+}
+
+const Bootstrap = () => {
+  return (
+    <SiBootstrap
+      style={{
+        color: '#7952B3',
+        padding: '3px',
+      }}
+    />
+  )
+}
+
+const Handlebars = () => {
+  return (
+    <SiHandlebarsdotjs
+      style={{
+        color: '#000000',
+        padding: '3px',
+      }}
+    />
+  )
+}
+
+const JQuery = () => {
+  return (
+    <SiJquery
+      style={{
+        color: '#0769AD',
+        padding: '3px',
+      }}
+    />
+  )
+}
+
 const portfolioData = [
   {
     image: EngineeringTheFuture_JenRyt,
@@ -101,13 +200,36 @@ const portfolioData = [
     github: 'https://github.com/jenryt/EngineeringTheFuture',
   },
   {
+    image: Snapshot,
+    title: 'Snapshot',
+    content: (
+      <div>
+        <React />
+        <NodeJS />
+        <JS />
+        <HTML5 />
+        <Sass />
+        <CSS3 />
+        <GraphQL />
+        <MongoDB />
+        <Redux />
+      </div>
+    ),
+    url: 'https://snapshot-marketplace-a63592d12ba6.herokuapp.com',
+    github: 'https://github.com/JDempe/Snapshot',
+  },
+  {
     image: WanderList,
     title: 'WanderList',
     content: (
       <div>
         <NodeJS />
         <JS />
+        <JQuery />
         <CSS3 />
+        <Handlebars />
+        <MySQL />
+        <Bootstrap />
       </div>
     ),
     url: 'https://wanderlist.herokuapp.com',
@@ -157,6 +279,8 @@ const portfolioData = [
       <div>
         <NodeJS />
         <JS />
+        <EXPRESS />
+        <MySQL />
       </div>
     ),
     url: '',
@@ -168,6 +292,7 @@ const portfolioData = [
     content: (
       <div>
         <JS />
+        <JQuery />
         <HTML5 />
         <CSS3 />
       </div>

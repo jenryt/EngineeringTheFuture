@@ -15,6 +15,9 @@ import {
   SiHeroku,
   SiBootstrap,
   SiRedux,
+  SiHandlebarsdotjs,
+  SiJquery,
+  SiExpress,
 } from 'react-icons/si'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -50,10 +53,26 @@ const AboutMe = () => {
                 color="#EFD81D"
                 style={{ height: '6%', width: '6%', padding: '0.5%' }}
               />
+              <SiJquery
+                style={{
+                  color: '#0769AD',
+                  height: '6%',
+                  width: '6%',
+                  padding: '0.5%',
+                }}
+              />
               <FontAwesomeIcon
                 icon={faHtml5}
                 color="#F06529"
                 style={{ height: '6%', width: '6%', padding: '0.5%' }}
+              />
+              <SiExpress
+                style={{
+                  color: '#fff',
+                  height: '6%',
+                  width: '6%',
+                  padding: '0.5%',
+                }}
               />
               <SiMongodb
                 style={{
@@ -90,6 +109,14 @@ const AboutMe = () => {
               <SiBootstrap
                 style={{
                   color: '#7952B3',
+                  height: '6%',
+                  width: '6%',
+                  padding: '0.5%',
+                }}
+              />
+              <SiHandlebarsdotjs
+                style={{
+                  color: '#fff',
                   height: '6%',
                   width: '6%',
                   padding: '0.5%',
@@ -144,7 +171,7 @@ const AboutMe = () => {
               what's possible in the tech world and making a positive impact
               through my work.
             </p>
-            <p align="LEFT"></p>
+            {/* <p align="LEFT"></p> */}
           </div>
         </div>
 

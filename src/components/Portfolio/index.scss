@@ -124,6 +124,23 @@
   width: 100%;
 }
 
+.projectInfo {
+  overflow: hidden;
+  height: 18%;
+}
+
+.projectTitle {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.projectContent {
+  overflow: scroll;
+  height: 50%;
+  width: 100%;
+  white-space: nowrap;
+}
+
 @media screen and (max-width: 1200px) {
   .portfolio-container {
     height: 91vh;

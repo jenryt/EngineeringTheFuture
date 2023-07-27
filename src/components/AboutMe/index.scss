@@ -133,7 +133,10 @@
 }
 
 .icons {
-  display: none;
+  // display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1200px) {

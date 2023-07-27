@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/EngineeringTheFuture/static/css/main.996e1faf.css",
-    "main.js": "/EngineeringTheFuture/static/js/main.dbb83b6c.js",
+    "main.css": "/EngineeringTheFuture/static/css/main.a92309cd.css",
+    "main.js": "/EngineeringTheFuture/static/js/main.f6690415.js",
     "static/media/YujiBoku-Regular.ttf": "/EngineeringTheFuture/static/media/YujiBoku-Regular.2a28c6fdce6b8f64d626.ttf",
     "static/media/WanderList.png": "/EngineeringTheFuture/static/media/WanderList.efa2b16d02da637e0d18.png",
+    "static/media/Snapshot.png": "/EngineeringTheFuture/static/media/Snapshot.58d8650a8b843b8e02e9.png",
     "static/media/THE SITE you camp.png": "/EngineeringTheFuture/static/media/THE SITE you camp.2b5e31faae8e0fb26624.png",
     "static/media/EngineeringTheFuture_JenniferRytikoff.png": "/EngineeringTheFuture/static/media/EngineeringTheFuture_JenniferRytikoff.9acc2b90a6fe87b8e61c.png",
     "static/media/personalPortfolio_noReact.png": "/EngineeringTheFuture/static/media/personalPortfolio_noReact.79700294643fbe9960e4.png",
@@ -22,11 +23,11 @@
     "static/media/revicons.ttf": "/EngineeringTheFuture/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/EngineeringTheFuture/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/EngineeringTheFuture/index.html",
-    "main.996e1faf.css.map": "/EngineeringTheFuture/static/css/main.996e1faf.css.map",
-    "main.dbb83b6c.js.map": "/EngineeringTheFuture/static/js/main.dbb83b6c.js.map"
+    "main.a92309cd.css.map": "/EngineeringTheFuture/static/css/main.a92309cd.css.map",
+    "main.f6690415.js.map": "/EngineeringTheFuture/static/js/main.f6690415.js.map"
   },
   "entrypoints": [
-    "static/css/main.996e1faf.css",
-    "static/js/main.dbb83b6c.js"
+    "static/css/main.a92309cd.css",
+    "static/js/main.f6690415.js"
   ]
 }

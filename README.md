@@ -29,7 +29,7 @@ No installaiton required.
 
 Welcome to my portfolio - [Engineering the Future : Jennifer Rytikoff](https://jenryt.github.io/EngineeringTheFuture/)
 
-![Home Page](./src/assets/images/EngineeringTheFuture_JenniferRytikoff.png)
+![Home Page](https://github.com/your-username/your-repo-name/raw/main/src/assets/images/EngineeringTheFuture_JenniferRytikoff.png)
 
 ## License
 

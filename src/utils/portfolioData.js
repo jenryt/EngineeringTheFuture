@@ -1,3 +1,4 @@
+// images
 import comingSoon from '../assets/images/comingSoon_imgPlaceholder.png'
 import TheSITE from '../assets/images/THE SITE you camp.png'
 import WanderList from '../assets/images/WanderList.png'
@@ -6,6 +7,12 @@ import WeatherDashboard from '../assets/images/WeatherDashboard.png'
 import TimedQuiz from '../assets/images/TimedQuiz.png'
 import EngineeringTheFuture_JenRyt from '../assets/images/EngineeringTheFuture_JenniferRytikoff.png'
 import personalPortfolio_noReact from '../assets/images/personalPortfolio_noReact.png'
+import track_EM from "../assets/images/track'EM.jpeg"
+import READMEgenerator from '../assets/images/README generator.jpeg'
+import eCommerceBackend from '../assets/images/eCommerceBackend.jpeg'
+import CircLink from '../assets/images/CircLink.jpeg'
+
+// icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faJsSquare,
@@ -24,6 +31,8 @@ import {
   SiHandlebarsdotjs,
   SiJquery,
   SiExpress,
+  SiSequelize,
+  SiMongoose,
 } from 'react-icons/si'
 // import {} from '@fortawesome/free-solid-svg-icons'
 
@@ -182,6 +191,28 @@ const JQuery = () => {
   )
 }
 
+const Sequelize = () => {
+  return (
+    <SiSequelize
+      style={{
+        color: '#52B0E7',
+        padding: '3px',
+      }}
+    />
+  )
+}
+
+const Mongoose = () => {
+  return (
+    <SiMongoose
+      style={{
+        color: '#880000',
+        padding: '3px',
+      }}
+    />
+  )
+}
+
 const portfolioData = [
   {
     image: EngineeringTheFuture_JenRyt,
@@ -249,19 +280,36 @@ const portfolioData = [
     github: 'https://github.com/Kevrev/the-site',
   },
   {
-    image: personalPortfolio_noReact,
-    title: 'Personal Portfolio',
+    image: CircLink,
+    title: 'CircLink',
     content: (
       <div>
-        <HTML5 />
-        <CSS3 />
+        <NodeJS />
+        <JS />
+        <EXPRESS />
+        <Mongoose />
       </div>
     ),
-    url: 'https://jenryt.github.io/PersonalPortfolio/',
-    github: 'https://github.com/jenryt/PersonalPortfolio',
+    url: '',
+    github: 'https://github.com/jenryt/CircLink',
   },
   {
-    image: comingSoon,
+    image: eCommerceBackend,
+    title: 'e-Commerce Backend',
+    content: (
+      <div>
+        <JS />
+        <NodeJS />
+        <EXPRESS />
+        <MySQL />
+        <Sequelize />
+      </div>
+    ),
+    url: '',
+    github: 'https://github.com/jenryt/E-commerce_Backend',
+  },
+  {
+    image: READMEgenerator,
     title: 'README generator',
     content: (
       <div>
@@ -273,7 +321,7 @@ const portfolioData = [
     github: 'https://github.com/jenryt/READMEGenerator',
   },
   {
-    image: comingSoon,
+    image: track_EM,
     title: 'track-EM_employee-tracker',
     content: (
       <div>
@@ -312,6 +360,18 @@ const portfolioData = [
     ),
     url: 'https://jenryt.github.io/TimedQuiz/',
     github: 'https://github.com/jenryt/TimedQuiz',
+  },
+  {
+    image: personalPortfolio_noReact,
+    title: 'Personal Portfolio',
+    content: (
+      <div>
+        <HTML5 />
+        <CSS3 />
+      </div>
+    ),
+    url: 'https://jenryt.github.io/PersonalPortfolio/',
+    github: 'https://github.com/jenryt/PersonalPortfolio',
   },
 ]
 

@@ -158,3 +158,4 @@ node_modules
 package-lock.json
 dist/
 /src/assets/images/
+/Resume.pdf

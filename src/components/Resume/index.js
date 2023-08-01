@@ -15,8 +15,8 @@ const Resume = () => {
             Area and the Bay Area.
             <br /> <br />
             01.2023-07.2023 <br />
-            Full-Stack Bootcamp, University of California, Berkeley-Extension
-            <br />
+            Certificate in Full Stack Coding Bootcamp, University of California,
+            Berkeley <br />
             09.2014-12.2016 <br />
             B.A. in Political Economy, University of California, Berkeley <br />
             <br />

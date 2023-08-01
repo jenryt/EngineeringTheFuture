@@ -14,11 +14,11 @@ const Resume = () => {
             Willing to work in-office or from home in the Greater Sacramento
             Area and the Bay Area.
             <br /> <br />
-            09.2014-12.2016 <br />
-            B.A. in Political Economy, University of California, Berkeley <br />
             01.2023-07.2023 <br />
             Full-Stack Bootcamp, University of California, Berkeley-Extension
             <br />
+            09.2014-12.2016 <br />
+            B.A. in Political Economy, University of California, Berkeley <br />
             <br />
             Full Stack Developer with expertise in HTML, CSS, JavaScript, React,
             Bootstrap, Node.js, GraphQL, GitHub, Heroku, SQL, and NoSQL

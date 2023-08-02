@@ -47,10 +47,6 @@
       position: relative;
       text-decoration: none;
 
-      i {
-        transition: all 0.3s ease-out;
-      }
-
       &:hover {
         color: #003262;
 
@@ -127,16 +123,56 @@
 
     li {
       a {
+        position: relative;
+        text-decoration: none;
         padding: 7px 0;
         display: block;
         font-size: 15px;
         line-height: 16px;
         color: #53626f;
+
+        &:hover {
+          color: #003262;
+
+          svg {
+            opacity: 0;
+          }
+
+          &:after {
+            opacity: 1;
+          }
+        }
+
+        &:after {
+          content: '';
+          font-size: 9px;
+          letter-spacing: 2px;
+          position: absolute;
+          bottom: 7px;
+          display: block;
+          width: 100%;
+          text-align: center;
+          opacity: 0;
+          -webkit-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+        }
       }
 
-      &:hover {
-        .anchor-icon {
-          color: #003262;
+      a.linkedin-link {
+        &:after {
+          content: 'Linked In';
+        }
+      }
+
+      a.github-link {
+        &:after {
+          content: 'GitHub';
+        }
+      }
+
+      a.email-link {
+        &:after {
+          content: 'Email';
         }
       }
     }
@@ -211,10 +247,64 @@
       left: 1vw;
       justify-content: center;
       height: 5vh;
-    }
 
-    li {
-      margin: 0% 2% 0% 2%;
+      li {
+        margin: 0% 2% 0% 2%;
+        a {
+          position: relative;
+          text-decoration: none;
+          padding: 7px 0;
+          display: block;
+          font-size: 15px;
+          line-height: 16px;
+          color: #53626f;
+
+          &:hover {
+            color: #003262;
+
+            svg {
+              opacity: 0;
+            }
+
+            &:after {
+              opacity: 1;
+            }
+          }
+
+          &:after {
+            content: '';
+            font-size: 9px;
+            letter-spacing: 2px;
+            position: absolute;
+            bottom: 7px;
+            display: block;
+            width: 100%;
+            text-align: center;
+            opacity: 0;
+            color: #ffffff;
+            -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+          }
+        }
+
+        a.linkedin-link {
+          &:after {
+            content: 'Linked in';
+          }
+        }
+
+        a.github-link {
+          &:after {
+            content: 'GitHub';
+          }
+        }
+
+        a.email-link {
+          &:after {
+            content: 'Email';
+          }
+        }
+      }
     }
 
     h1 {

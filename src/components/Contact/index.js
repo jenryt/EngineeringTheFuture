@@ -2,6 +2,8 @@ import React from 'react'
 import { Button } from '@material-ui/core'
 import './index.scss'
 import { useForm } from '@formspree/react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPaperPlane } from '@fortawesome/free-regular-svg-icons'
 
 const Contact = () => {
   // api from Formspree
@@ -14,6 +16,12 @@ const Contact = () => {
         Let's keep in touch!
       </h1>
     )
+  }
+
+  const email = 'jenyjlin@gmail.com'
+
+  const handleContactClick = () => {
+    window.location.href = `mailto:${email}`
   }
 
   return (
@@ -30,6 +38,18 @@ const Contact = () => {
         >
           <div className="text-zone">
             <h1>Contact Me</h1>
+            <h2>
+              Please complete the form below to get in touch with me.
+              Alternatively, you can click &nbsp;
+              <a href={`mailto:${email}`} onClick={handleContactClick}>
+                <FontAwesomeIcon
+                  icon={faPaperPlane}
+                  color="#fff"
+                  className="anchor-icon"
+                />
+              </a>
+              &nbsp; to reach me via email.
+            </h2>
             <div className="contact-form">
               <form onSubmit={handleSubmit}>
                 <ul>

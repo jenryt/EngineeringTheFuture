@@ -12,7 +12,7 @@ import {
   faSuitcase,
   faBars,
   faClose,
-  faAt,
+  faPaperPlane,
 } from '@fortawesome/free-solid-svg-icons'
 import myImage from '../../assets/images/avatarImage01.jpg'
 
@@ -109,6 +109,7 @@ const Navbar = () => {
         {/* Linkedin */}
         <li>
           <a
+            className="linkedin-link"
             href="http://www.linkedin.com/in/jennifer-rytikoff"
             target="_blank"
             rel="noreferrer"
@@ -122,7 +123,12 @@ const Navbar = () => {
         </li>
         {/* GitHub */}
         <li>
-          <a href="https://github.com/jenryt" target="_blank" rel="noreferrer">
+          <a
+            className="github-link"
+            href="https://github.com/jenryt"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon
               icon={faGithub}
               color="#53626f"
@@ -132,9 +138,13 @@ const Navbar = () => {
         </li>
         {/* Email */}
         <li>
-          <a href={`mailto:${email}`} onClick={handleContactClick}>
+          <a
+            className="email-link"
+            href={`mailto:${email}`}
+            onClick={handleContactClick}
+          >
             <FontAwesomeIcon
-              icon={faAt}
+              icon={faPaperPlane}
               color="#53626f"
               className="anchor-icon"
             />

@@ -61,7 +61,7 @@ const Portfolio = () => {
               >
                 <CardMedia
                   component="img"
-                  height="60%"
+                  height="50%"
                   image={card.image}
                   title={card.title}
                   sx={{ objectFit: 'cover' }}
@@ -82,6 +82,14 @@ const Portfolio = () => {
                     content={card.content}
                   >
                     {card.content}
+                  </Typography>
+                  <Typography
+                    className="projectSkill"
+                    variant="h4"
+                    color="text.secondary"
+                    content={card.skill}
+                  >
+                    {card.skill}
                   </Typography>
                 </CardContent>
                 <CardActions>

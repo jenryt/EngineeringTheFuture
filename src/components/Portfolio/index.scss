@@ -126,27 +126,43 @@
 
 .projectInfo {
   overflow: hidden;
-  height: 18%;
-}
+  height: 33%;
+  padding-bottom: 0 !important;
 
-.projectTitle {
-  overflow: hidden;
-  white-space: nowrap;
-}
+  .projectTitle {
+    overflow: hidden;
+    // overflow-x: scroll;
+    white-space: nowrap;
+    font-size: large;
+    height: 18%;
+    margin: 0;
+  }
 
-.projectContent {
-  overflow-x: scroll;
-  height: 50%;
-  width: 100%;
-  font-size: xx-large;
-  display: flex;
-  align-items: flex-end;
-  white-space: nowrap;
+  .projectContent {
+    overflow: scroll;
+    height: 60%;
+    width: 100%;
+    font-size: xx-large;
+    p {
+      font-size: medium;
+      margin: 0;
+    }
+  }
+
+  .projectSkill {
+    // overflow-x: scroll;
+    height: 25%;
+    width: 100%;
+    font-size: x-large;
+    display: flex;
+    align-items: flex-start;
+    white-space: nowrap;
+  }
 }
 
 @media screen and (max-width: 1200px) {
   .portfolio-container {
-    height: 91vh;
+    height: 90vh;
     width: 100%;
   }
 

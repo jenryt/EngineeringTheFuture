@@ -263,6 +263,7 @@ const portfolioData = [
     ),
     url: 'https://snapshot-marketplace-a63592d12ba6.herokuapp.com',
     github: 'https://github.com/JDempe/Snapshot',
+    redeploying: true,
   },
   {
     image: WanderList,
@@ -286,6 +287,7 @@ const portfolioData = [
     ),
     url: 'https://wanderlist.herokuapp.com',
     github: 'https://github.com/JDempe/WanderList',
+    redeploying: true,
   },
   {
     image: TheSITE,
@@ -305,6 +307,7 @@ const portfolioData = [
     ),
     url: 'https://kevrev.github.io/the-site/',
     github: 'https://github.com/Kevrev/the-site',
+    redeploying: true,
   },
   {
     image: CircLink,

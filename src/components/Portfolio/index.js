@@ -94,7 +94,27 @@ const Portfolio = () => {
                 </CardContent>
                 <CardActions>
                   {/* generate site button if it's provided */}
-                  {card.url && (
+                  {card.redeploying ? (
+                    <Button
+                      size="large"
+                      disable
+                      style={{
+                        border: 'solid 1px #003262',
+                        borderRadius: 4,
+                        color: '#003262',
+                        transition: 'border-color 0.3s ease',
+                      }}
+                      onMouseEnter={(e) => {
+                        e.target.style.backgroundColor = '#b5ac9b'
+                      }}
+                      onMouseLeave={(e) => {
+                        e.target.style.backgroundColor = 'transparent'
+                      }}
+                    >
+                      Redeploying...
+                    </Button>
+                   ) : (
+                    card.url && (
                     <Button
                       size="large"
                       href={card.url}

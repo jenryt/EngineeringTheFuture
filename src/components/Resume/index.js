@@ -14,6 +14,8 @@ const Resume = () => {
             Willing to work in-office or from home in the Greater Sacramento
             Area and the Bay Area.
             <br /> <br />
+            Fall 2026 <br />
+            Admitted to Georgia Tech M.S. in Computer Science (OMSCS) <br />
             01.2023-07.2023 <br />
             Certificate in Full Stack Coding Bootcamp, University of California,
             Berkeley <br />

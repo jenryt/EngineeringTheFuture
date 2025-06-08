@@ -97,7 +97,7 @@ const Portfolio = () => {
                   {card.redeploying ? (
                     <Button
                       size="large"
-                      disabled
+                      // disabled
                       style={{
                         border: 'solid 1px #003262',
                         borderRadius: 4,

@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/EngineeringTheFuture/static/css/main.c502f9b6.css",
+    "main.js": "/EngineeringTheFuture/static/js/main.5e4ca71c.js",
+    "static/media/YujiBoku-Regular.ttf": "/EngineeringTheFuture/static/media/YujiBoku-Regular.2a28c6fdce6b8f64d626.ttf",
+    "static/media/WanderList.png": "/EngineeringTheFuture/static/media/WanderList.efa2b16d02da637e0d18.png",
+    "static/media/Snapshot.png": "/EngineeringTheFuture/static/media/Snapshot.58d8650a8b843b8e02e9.png",
+    "static/media/THE SITE you camp.png": "/EngineeringTheFuture/static/media/THE SITE you camp.2b5e31faae8e0fb26624.png",
+    "static/media/eCommerceBackend.jpeg": "/EngineeringTheFuture/static/media/eCommerceBackend.f7c18fcac05de3914085.jpeg",
+    "static/media/track'EM.jpeg": "/EngineeringTheFuture/static/media/track'EM.ffd1c39605c2e8d52df6.jpeg",
+    "static/media/README generator.jpeg": "/EngineeringTheFuture/static/media/README generator.77d4e817adedbdd25939.jpeg",
+    "static/media/EngineeringTheFuture_JenniferRytikoff.png": "/EngineeringTheFuture/static/media/EngineeringTheFuture_JenniferRytikoff.9acc2b90a6fe87b8e61c.png",
+    "static/media/personalPortfolio_noReact.png": "/EngineeringTheFuture/static/media/personalPortfolio_noReact.79700294643fbe9960e4.png",
+    "static/media/CircLink.jpeg": "/EngineeringTheFuture/static/media/CircLink.d8c5750ad952dcd830d6.jpeg",
+    "static/media/avatarImage01.jpg": "/EngineeringTheFuture/static/media/avatarImage01.1ec66fd03dbb56259dcc.jpg",
+    "static/media/WeatherDashboard.png": "/EngineeringTheFuture/static/media/WeatherDashboard.8f0b879023f9bf5b4c7e.png",
+    "static/media/YsabeauSC-VariableFont_wght.ttf": "/EngineeringTheFuture/static/media/YsabeauSC-VariableFont_wght.b556c9de80a323c7b6f9.ttf",
+    "static/media/Raleway-Black.ttf": "/EngineeringTheFuture/static/media/Raleway-Black.6d75f2b870b0a5df344d.ttf",
+    "static/media/TimedQuiz.png": "/EngineeringTheFuture/static/media/TimedQuiz.1468b1ed0ab5c78fe04a.png",
+    "static/media/comingSoon_imgPlaceholder.png": "/EngineeringTheFuture/static/media/comingSoon_imgPlaceholder.249ad333bd0b8e738123.png",
+    "static/media/Resume.pdf": "/EngineeringTheFuture/static/media/Resume.50711f3a08d8a8a439f2.pdf",
+    "static/media/TheGirlNextDoor-Regular.ttf": "/EngineeringTheFuture/static/media/TheGirlNextDoor-Regular.0f892c50180c3126592c.ttf",
+    "static/media/PoiretOne-Regular.ttf": "/EngineeringTheFuture/static/media/PoiretOne-Regular.9bf109e97f6294c6fe2b.ttf",
+    "static/media/GillSansC-Bold.ttf": "/EngineeringTheFuture/static/media/GillSansC-Bold.07a280a802370f15e2d9.ttf",
+    "static/media/revicons.eot": "/EngineeringTheFuture/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/EngineeringTheFuture/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/EngineeringTheFuture/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/EngineeringTheFuture/index.html",
+    "main.c502f9b6.css.map": "/EngineeringTheFuture/static/css/main.c502f9b6.css.map",
+    "main.5e4ca71c.js.map": "/EngineeringTheFuture/static/js/main.5e4ca71c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c502f9b6.css",
+    "static/js/main.5e4ca71c.js"
+  ]
+}

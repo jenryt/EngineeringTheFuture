@@ -138,7 +138,7 @@ const Portfolio = () => {
                     >
                       Visit the Site
                     </Button>
-                  )}
+                  ))}
                   {/* generate github button if it's provided */}
                   {card.github && (
                     <Button

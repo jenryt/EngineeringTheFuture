@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EngineeringTheFuture/static/css/main.c502f9b6.css",
-    "main.js": "/EngineeringTheFuture/static/js/main.5e4ca71c.js",
+    "main.js": "/EngineeringTheFuture/static/js/main.903df8c4.js",
     "static/media/YujiBoku-Regular.ttf": "/EngineeringTheFuture/static/media/YujiBoku-Regular.2a28c6fdce6b8f64d626.ttf",
     "static/media/WanderList.png": "/EngineeringTheFuture/static/media/WanderList.efa2b16d02da637e0d18.png",
     "static/media/Snapshot.png": "/EngineeringTheFuture/static/media/Snapshot.58d8650a8b843b8e02e9.png",
@@ -27,10 +27,10 @@
     "static/media/revicons.woff": "/EngineeringTheFuture/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/EngineeringTheFuture/index.html",
     "main.c502f9b6.css.map": "/EngineeringTheFuture/static/css/main.c502f9b6.css.map",
-    "main.5e4ca71c.js.map": "/EngineeringTheFuture/static/js/main.5e4ca71c.js.map"
+    "main.903df8c4.js.map": "/EngineeringTheFuture/static/js/main.903df8c4.js.map"
   },
   "entrypoints": [
     "static/css/main.c502f9b6.css",
-    "static/js/main.5e4ca71c.js"
+    "static/js/main.903df8c4.js"
   ]
 }

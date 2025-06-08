@@ -22,9 +22,9 @@ const Resume = () => {
             09.2014-12.2016 <br />
             B.A. in Political Economy, University of California, Berkeley <br />
             <br />
-            Full Stack Developer with expertise in HTML, CSS, JavaScript, React,
-            Bootstrap, Node.js, GraphQL, GitHub, Heroku, SQL, and NoSQL
-            databases (including MongoDB).
+            Full Stack Developer with hands-on experience building projects using 
+            Java, C, HTML, CSS, JavaScript, React, Bootstrap, Node.js, GraphQL,
+            GitHub, Heroku, SQL, and NoSQL databases such as MongoDB.
             <br />
             <br />
           </h2>

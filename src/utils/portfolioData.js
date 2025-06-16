@@ -305,9 +305,9 @@ const portfolioData = [
         <CSS3 />
       </div>
     ),
-    url: 'https://kevrev.github.io/the-site/',
-    github: 'https://github.com/Kevrev/the-site',
-    redeploying: true,
+    url: 'https://jenryt.github.io/theSITE/',
+    github: 'https://github.com/jenryt/theSITE',
+    redeploying: false,
   },
   {
     image: CircLink,
@@ -412,8 +412,8 @@ const portfolioData = [
         <CSS3 />
       </div>
     ),
-    url: 'https://jenryt.github.io/WeatherDashboard/',
-    github: 'https://github.com/jenryt/WeatherDashboard',
+    url: 'https://jenryt.github.io/WEATHER_you_go/',
+    github: 'https://github.com/jenryt/WEATHER_you_go',
   },
   {
     image: TimedQuiz,

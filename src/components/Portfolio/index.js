@@ -113,32 +113,33 @@ const Portfolio = () => {
                     >
                       Redeploying...
                     </Button>
-                   ) : (
+                  ) : (
                     card.url && (
-                    <Button
-                      size="large"
-                      href={card.url}
-                      target="_blank"
-                      style={{
-                        border: 'solid 1px #003262',
-                        borderRadius: 4,
-                        color: '#003262',
-                        transition: 'border-color 0.3s ease',
-                      }}
-                      onMouseEnter={(e) => {
-                        e.target.style.backgroundColor = '#003262'
-                        e.target.style.borderColor = '#003262'
-                        e.target.style.color = '#fff'
-                      }}
-                      onMouseLeave={(e) => {
-                        e.target.style.backgroundColor = 'transparent'
-                        e.target.style.borderColor = '#003262'
-                        e.target.style.color = '#003262'
-                      }}
-                    >
-                      Visit the Site
-                    </Button>
-                  ))}
+                      <Button
+                        size="large"
+                        href={card.url}
+                        target="_blank"
+                        style={{
+                          border: 'solid 1px #003262',
+                          borderRadius: 4,
+                          color: '#003262',
+                          transition: 'border-color 0.3s ease',
+                        }}
+                        onMouseEnter={(e) => {
+                          e.target.style.backgroundColor = '#003262'
+                          e.target.style.borderColor = '#003262'
+                          e.target.style.color = '#fff'
+                        }}
+                        onMouseLeave={(e) => {
+                          e.target.style.backgroundColor = 'transparent'
+                          e.target.style.borderColor = '#003262'
+                          e.target.style.color = '#003262'
+                        }}
+                      >
+                        Visit the Site
+                      </Button>
+                    )
+                  )}
                   {/* generate github button if it's provided */}
                   {card.github && (
                     <Button

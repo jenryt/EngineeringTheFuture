@@ -139,39 +139,48 @@ const AboutMe = () => {
               />
             </div>
             <p>
-              Hello, I'm Jennifer Lin Rytikoff, a passionate and dedicated
-              full-stack developer who recently completed an intensive coding
-              bootcamp at the University of California, Berkeley - Extension. I
-              hold a B.A. degree in Political Economy from U.C. Berkeley, and my
-              journey in the tech-field began with a fresh perspective and
-              unwavering determination.
+              Hello, I'm Jennifer Lin Rytikoff, a passionate full-stack
+              developer with a strong academic foundation and a growing
+              portfolio of hands-on experience. After completing an intensive
+              coding bootcamp at UC Berkeley Extension, I further expanded my
+              knowledge through college-level computer science coursework,
+              earning A's in Programming Concepts/Methods I & II, Computer
+              Architecture and Assembly Language, Discrete Structures for
+              Computer Science, System Programming with C, and Web Programming
+              I. I was also recently admitted to Georgia Tech's Master of
+              Science in Computer Science (OMSCS) program.
             </p>
             <p>
               During the immersive bootcamp, I embraced the fast-paced learning
               process and honed my skills in a wide range of technologies,
               including HTML, CSS, JavaScript, React, Redux, Node.js, GraphQL,
-              SQL, and NoSQL Databases. This versatile skill set equips me to
+              SQL, and NoSQL databases. This versatile skill set equips me to
               work with both classic and modern frameworks, empowering me to
-              build innovative and impactful solutions. I am proud to have
-              achieved exceptional results during the bootcamp, which reflects
-              my dedication and commitment to excellence in my work.
+              build innovative and impactful solutions. I'm proud to have
+              achieved exceptional results during both the bootcamp and my
+              academic coursework, reflecting my commitment to excellence.
+            </p>
+            <p>
+              Since completing that coursework, I've continued developing my
+              technical skills while actively applying to apprenticeships and
+              junior developer roles. I've revisited and optimized earlier
+              projects to reflect my growing proficiency and explored new
+              challenges through C-based systems programming, with a focus on
+              low-level logic and memory handling.
             </p>
             <p>
               Beyond technical expertise, my background as a one-on-one math
-              tutor and language teacher for thirty students has cultivated my
-              ability to understand individual needs and deliver tailored
-              solutions. Additionally, my extensive experience in customer
-              service has sharpened my communication skills and fostered my
-              collaborative spirit as a team player.
+              tutor and language teacher has cultivated my ability to break down
+              complex concepts and deliver tailored solutions. My experience in
+              customer service has further sharpened my communication skills and
+              strengthened my collaborative mindset.
             </p>
             <p>
-              Now, six months after embarking on this exciting journey, I am
-              eager to seize new opportunities and contribute my skills to
-              meaningful projects. I am committed to pushing the boundaries of
-              what's possible in the tech world and making a positive impact
-              through my work.
+              Now, a couple of years into my transition into tech, I'm excited
+              to contribute to meaningful projects, grow alongside experienced
+              engineers, and continue pushing the boundaries of what I can
+              build.
             </p>
-            {/* <p align="LEFT"></p> */}
           </div>
         </div>
 

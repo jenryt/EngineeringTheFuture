@@ -146,9 +146,9 @@ const AboutMe = () => {
               knowledge through college-level computer science coursework,
               earning A's in Programming Concepts/Methods I & II, Computer
               Architecture and Assembly Language, Discrete Structures for
-              Computer Science, System Programming with C, and Web Programming
-              I. I was also recently admitted to Georgia Tech's Master of
-              Science in Computer Science (OMSCS) program.
+              Computer Science, System Programming with the C language, and Web
+              Programming I. I was also recently admitted to Georgia Tech's
+              Master of Science in Computer Science (OMSCS) program.
             </p>
             <p>
               During the immersive bootcamp, I embraced the fast-paced learning

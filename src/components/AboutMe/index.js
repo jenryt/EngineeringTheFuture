@@ -7,6 +7,8 @@ import {
   faReact,
   faNode,
   faSass,
+  faJava,
+  faPython,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   SiMongodb,
@@ -18,10 +20,13 @@ import {
   SiHandlebarsdotjs,
   SiJquery,
   SiExpress,
+  SiP5Dotjs,
 } from 'react-icons/si'
+import { FaJava, FaCode, FaPython } from 'react-icons/fa'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
+import { faCode } from '@fortawesome/free-solid-svg-icons'
 
 const AboutMe = () => {
   return (
@@ -32,37 +37,6 @@ const AboutMe = () => {
             <div className="icons">
               <FontAwesomeIcon
                 icon={faNode}
-                color="#F06529"
-                style={{ height: '6%', width: '6%', padding: '0.5%' }}
-              />
-              <FontAwesomeIcon
-                icon={faReact}
-                color="#5ED4F4"
-                style={{ height: '6%', width: '6%', padding: '0.5%' }}
-              />
-              <SiRedux
-                style={{
-                  color: '#764ABC',
-                  height: '6%',
-                  width: '6%',
-                  padding: '0.5%',
-                }}
-              />
-              <FontAwesomeIcon
-                icon={faJsSquare}
-                color="#EFD81D"
-                style={{ height: '6%', width: '6%', padding: '0.5%' }}
-              />
-              <SiJquery
-                style={{
-                  color: '#0769AD',
-                  height: '6%',
-                  width: '6%',
-                  padding: '0.5%',
-                }}
-              />
-              <FontAwesomeIcon
-                icon={faHtml5}
                 color="#F06529"
                 style={{ height: '6%', width: '6%', padding: '0.5%' }}
               />
@@ -98,6 +72,11 @@ const AboutMe = () => {
                   padding: '0.5%',
                 }}
               />
+              <FontAwesomeIcon
+                icon={faGit}
+                color="#EC4D28"
+                style={{ height: '6%', width: '6%', padding: '0.5%' }}
+              />
               <SiHeroku
                 style={{
                   color: '#6567a5',
@@ -105,6 +84,39 @@ const AboutMe = () => {
                   width: '6%',
                   padding: '0.5%',
                 }}
+              />
+              <SiRedux
+                style={{
+                  color: '#764ABC',
+                  height: '6%',
+                  width: '6%',
+                  padding: '0.5%',
+                }}
+              />
+              <FontAwesomeIcon
+                icon={faReact}
+                color="#5ED4F4"
+                style={{ height: '6%', width: '6%', padding: '0.5%' }}
+              />
+              <FontAwesomeIcon
+                icon={faJsSquare}
+                color="#EFD81D"
+                style={{ height: '6%', width: '6%', padding: '0.5%' }}
+              />
+              <FontAwesomeIcon
+                icon={faHtml5}
+                color="#F06529"
+                style={{ height: '6%', width: '6%', padding: '0.5%' }}
+              />
+              <FontAwesomeIcon
+                icon={faCss3}
+                color="#28A4D9"
+                style={{ height: '6%', width: '6%', padding: '0.5%' }}
+              />
+              <FontAwesomeIcon
+                icon={faSass}
+                color="#CD6799"
+                style={{ height: '6%', width: '6%', padding: '0.5%' }}
               />
               <SiBootstrap
                 style={{
@@ -122,21 +134,47 @@ const AboutMe = () => {
                   padding: '0.5%',
                 }}
               />
-              <FontAwesomeIcon
-                icon={faCss3}
-                color="#28A4D9"
-                style={{ height: '6%', width: '6%', padding: '0.5%' }}
+
+              <SiJquery
+                style={{
+                  color: '#0769AD',
+                  height: '6%',
+                  width: '6%',
+                  padding: '0.5%',
+                }}
               />
-              <FontAwesomeIcon
-                icon={faSass}
-                color="#CD6799"
-                style={{ height: '6%', width: '6%', padding: '0.5%' }}
+              <SiP5Dotjs
+                style={{
+                  color: '#ED225D',
+                  height: '6%',
+                  width: '6%',
+                  padding: '0.5%',
+                }}
               />
-              <FontAwesomeIcon
-                icon={faGit}
-                color="#EC4D28"
-                style={{ height: '6%', width: '6%', padding: '0.5%' }}
+              <FaJava
+                style={{
+                  color: '#007396',
+                  height: '6%',
+                  width: '6%',
+                  padding: '0.5%',
+                }}
               />
+              <FaCode
+                style={{
+                  color: '#A8B9CC',
+                  height: '6%',
+                  width: '6%',
+                  padding: '0.5%',
+                }}
+              />
+              {/* <FaPython
+                style={{
+                  color: '#306998',
+                  height: '6%',
+                  width: '6%',
+                  padding: '0.5%',
+                }}
+              /> */}
             </div>
             <p>
               Hello, I'm Jennifer Lin Rytikoff, a passionate full-stack

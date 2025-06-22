@@ -1,5 +1,6 @@
 // images
 import comingSoon from '../assets/images/comingSoon_imgPlaceholder.png'
+import SpaceInvader from '../assets/images/spaceInvader.gif'
 import TheSITE from '../assets/images/THE SITE you camp.png'
 import WanderList from '../assets/images/WanderList.png'
 import Snapshot from '../assets/images/Snapshot.png'
@@ -33,7 +34,9 @@ import {
   SiExpress,
   SiSequelize,
   SiMongoose,
+  SiP5Dotjs,
 } from 'react-icons/si'
+import { FaJava, FaCode, FaPython } from 'react-icons/fa'
 // import {} from '@fortawesome/free-solid-svg-icons'
 
 // icons component
@@ -213,6 +216,50 @@ const Mongoose = () => {
   )
 }
 
+const JAVA = () => {
+  return (
+    <FaJava
+      style={{
+        color: '#007396',
+        padding: '3px',
+      }}
+    />
+  )
+}
+
+const P5 = () => {
+  return (
+    <SiP5Dotjs
+      style={{
+        color: '#ED225D',
+        padding: '3px',
+      }}
+    />
+  )
+}
+
+const C_LAN = () => {
+  return (
+    <FaCode
+      style={{
+        color: '#A8B9CC',
+        padding: '3px',
+      }}
+    />
+  )
+}
+
+const PYTHON = () => {
+  return (
+    <FaPython
+      style={{
+        color: '#306998',
+        padding: '3px',
+      }}
+    />
+  )
+}
+
 const portfolioData = [
   {
     image: EngineeringTheFuture_JenRyt,
@@ -238,6 +285,50 @@ const portfolioData = [
     ),
     url: 'https://jenryt.github.io/EngineeringTheFuture',
     github: 'https://github.com/jenryt/EngineeringTheFuture',
+  },
+  {
+    image: SpaceInvader,
+    title: 'WHEEK Space Invader',
+    content: (
+      <p>
+        WHEEK Space Invader began as a project from my first Java course.
+        Rebuilt in p5.js, it now includes mobile-friendly controls, custom
+        visuals, and smoother gameplay. It's a fun way to bring an old
+        assignment to life with fresh skills.
+      </p>
+    ),
+    skill: (
+      <div>
+        <JS />
+        <P5 />
+        <JAVA />
+        <HTML5 />
+        <CSS3 />
+      </div>
+    ),
+    url: 'https://jenryt.github.io/spaceInvaders/',
+    github: 'https://github.com/jenryt/spaceInvaders',
+    redeploying: false,
+  },
+  {
+    image: TheSITE,
+    title: 'The SITE you camp',
+    content: (
+      <p>
+        Discover nearby campsites based on user input using TheSITE's convenient
+        Google API integration. Happy camping!
+      </p>
+    ),
+    skill: (
+      <div>
+        <JS />
+        <HTML5 />
+        <CSS3 />
+      </div>
+    ),
+    url: 'https://jenryt.github.io/theSITE/',
+    github: 'https://github.com/jenryt/theSITE',
+    redeploying: false,
   },
   {
     image: Snapshot,
@@ -288,26 +379,6 @@ const portfolioData = [
     url: 'https://wanderlist.herokuapp.com',
     github: 'https://github.com/JDempe/WanderList',
     redeploying: true,
-  },
-  {
-    image: TheSITE,
-    title: 'The SITE you camp',
-    content: (
-      <p>
-        Discover nearby campsites based on user input using TheSITE's convenient
-        Google API integration. Happy camping!
-      </p>
-    ),
-    skill: (
-      <div>
-        <JS />
-        <HTML5 />
-        <CSS3 />
-      </div>
-    ),
-    url: 'https://jenryt.github.io/theSITE/',
-    github: 'https://github.com/jenryt/theSITE',
-    redeploying: false,
   },
   {
     image: CircLink,

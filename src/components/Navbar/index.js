@@ -110,7 +110,7 @@ const Navbar = () => {
         <li>
           <a
             className="linkedin-link"
-            href="http://www.linkedin.com/in/jennifer-rytikoff"
+            href="http://www.linkedin.com/in/jenryt"
             target="_blank"
             rel="noreferrer"
           >
